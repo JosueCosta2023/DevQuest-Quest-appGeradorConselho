@@ -6,4 +6,42 @@
 
 body{
     font-family: 'Manrope', sans-serif;
+    background-color: var(--background-color);
 }
+
+body .container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+body .container .content-card{
+  width: 400px;
+  height: 250px;
+  background-color: var(--advice-card-color);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body .container .content-card .card-description{
+  width: 70%;
+  background-color: rebeccapurple;
+}
+
+body .container .content-card .card-border-decoration{
+  height: 40px;
+  width: 70%;
+  background-color: blue;
+}
+
+body .container .card-border-decoration span{
+  width: 80px;
+  height: 100px;
+  background-color: red;
+}
+
