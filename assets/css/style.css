@@ -1,0 +1,9 @@
+/* Local para importação de font */
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+/* Estilização geral do website */
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
