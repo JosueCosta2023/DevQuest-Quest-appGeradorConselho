@@ -42,6 +42,7 @@ body .container .content-card .card-description{
 
 body .container .content-card .card-description p{
   font-size: 28px;
+  margin-top: 10px;
 }
 body .container .content-card .card-border-decoration{
   height: 40px;
