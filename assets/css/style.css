@@ -56,8 +56,7 @@ body{
   box-shadow: 0 5px 15px var(--advice-dice-color);
 }
 
-.advice picture,
-.content-card picture{
+.advice picture{
   display: flex;
   justify-content: center;
   align-items: center;
