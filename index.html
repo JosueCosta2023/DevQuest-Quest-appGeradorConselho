@@ -14,22 +14,20 @@
     <title>Gerador de conselhos - Dev em Dobro</title>
 </head>
 <body>
-    <main class="container">
-        <div class="content-card">
-            <div class="card-description">
-                <h3 class="card-title">ADVICE <span>117</span></h3>
-                <p class="card-text">"It is easy to sit up and take notice, what's difficult is getting up anda taking action."</p>
-            </div>
-
-
-            <div class="card-border-decoration">
-                    <div></div>
-                    <div class="pipe"></div>
-                    <div class="pipe"></div>
-                    <div></div>
-            </div>
-            <!-- Adicionar o dado atraves do after 
-            position absolute relativo a div content-->
+    <main class="card">
+        
+        <div class="advice">
+            <h2 class="advice-id">ADVICE #117</h2>
+            <p class="advice-description">
+                "It is easy to sit up and take notice, what's difficult is getting up anda taking action."
+            </p>
+            <picture>
+                <source srcset="./assets/images/pattern-divider-mobile.svg" media="(max-width:168px;)">
+                <img src="./assets/images/pattern-divider-desktop.svg" alt="pattern dividir">
+            </picture>
+            <button class="advice-update">
+                <img src="./assets/images/icon-dice.svg" alt="dice icon">
+            </button>
         </div>
     </main>
 </body>
