@@ -10,23 +10,24 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/variables.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/script.js" defer></script>
     <title>Gerador de conselhos - Dev em Dobro</title>
 </head>
 <body>
     <main class="card">
         <div class="advice">
-            <h2 class="advice-id">Conselho #117</h2>
-            <p class="advice-description">" Estude até não aguentar mais, e depois continue estudando. "</p>
+            <h2 class="advice-id">Conselho 
+                <span id="id-conselho"></span></h2>
+            <p class="advice-description" id="message">" "</p>
             <picture>
                 <source srcset="./assets/images/pattern-divider-mobile.svg" media="(max-width:768px;)">
                 <img src="./assets/images/pattern-divider-mobile.svg" alt="">
             </picture>
-
-            <button class="advice-update">
+            
+            <button class="advice-update" id="botao">
                 <img src="./assets/images/icon-dice.svg" alt="icon dice">
             </button>
         </div>
     </main>
+    <script src="./assets/js/index.js" defer></script>
 </body>
 </html>
